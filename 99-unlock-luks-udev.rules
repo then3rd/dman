@@ -1,0 +1,2 @@
+KERNEL=="sd?", ATTRS{serial}=="YOUR_SERIAL_HERE", SYMLINK+="usbkey" RUN+="/opt/dman/autodecrypt.sh"
+KERNEL=="sd?", ATTRS{serial}=="ANOTHER_SERIAL_HERE", SYMLINK+="usbkey" RUN+="/opt/dman/autodecrypt.sh"
